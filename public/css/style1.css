@@ -1,0 +1,88 @@
+@import url('../js/google-code-prettify/prettify.css');
+@import url('font-awesome.css');
+@import url('custom-fonts.css');
+@import url('overwrite.css');
+@import url('animate.css');
+
+.container {
+  padding: 20px 0px 0px 0px;
+  position: relative;
+}
+
+/* ===================================
+3. Responsive media
+==================================== */
+.cta-text {
+  float: left;
+  margin-top: 10px;
+}
+
+.big-cta .cta {
+  margin-top: 10px;
+}
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatnone {
+  float: none;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+/* --- Image allignment style --- */
+
+img.pull-left, .align-left {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.widget img.pull-left {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+img.pull-right, .align-right {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+article img.pull-left, article .align-left {
+  float: left;
+  margin: 5px 15px 15px 0;
+}
+
+article img.pull-right, article .align-right {
+  float: right;
+  margin: 5px 0 15px 15px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  #wrapper.boxed {
+    width: 784px;
+    margin: 0 auto;
+  }
+
+  ul.related-folio li {
+    width: 156px;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .box {
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+  }

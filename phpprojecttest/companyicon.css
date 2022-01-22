@@ -1,0 +1,40 @@
+
+
+.client_logo {
+  padding: 0 0 140px;
+}
+
+@media (max-width: 991px) {
+  /* line 2, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+  .client_logo {
+    padding: 0 0 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 2, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+  .client_logo {
+    padding: 0 0 100px;
+  }
+}
+
+/* line 10, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+.client_logo .single_client_logo {
+  display: flex;
+  align-items: center;
+}
+
+/* line 14, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+.client_logo .owl-carousel .owl-item img {
+  width: auto;
+}
+
+/* line 17, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+.client_logo .single_client_logo {
+  height: 100px;
+}
+
+/* line 19, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_client_logo.scss */
+.client_logo .single_client_logo img {
+  margin: 0 auto;
+}
